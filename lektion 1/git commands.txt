@@ -1,0 +1,10 @@
+# skapar en ny local git repository ska göras vid nya project och görs endast 1 gång
+git init
+
+#lägger till nya filer till min git repository
+git add . 
+
+sparar alla ändringar i local repository, gör vid varje ändring
+git commit -m "lektion 1"
+
+git config --global user.email "
