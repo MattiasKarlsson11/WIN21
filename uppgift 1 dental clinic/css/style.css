@@ -1,0 +1,50 @@
+@import "core/standard.css";
+
+.top-menu {
+    padding: 0.4rem 0.;
+    
+}
+.top-menu-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top-menu-items i {
+    font-size: 1.2rem;
+    color: rgb(0, 183, 255);
+}
+
+.top-menu-items .working-hours{
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+}
+.working-hours p {
+    font-size: 0.6rem;
+    margin-left: 0.3rem;
+    margin-top: 0.8rem;   
+}
+.navbar {
+    padding: 0.6rem 0;
+    
+}
+.navbar-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-logo i {
+    font-size: 1.2rem;
+    color: rgb(0, 183, 255);
+
+}
+.navbar-logo p{
+    font-size: 0.8rem;
+    padding-left: 1.2rem;
+}
+.fa-tooth{
+    font-size: 2rem;
+}
+
+
