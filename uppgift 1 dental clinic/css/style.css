@@ -20,7 +20,7 @@
     align-items: center;
 }
 .working-hours p {
-    font-size: 0.6rem;
+    font-size: 0.9rem;
     margin-left: 0.3rem;
     margin-top: 0.8rem;   
 }
@@ -33,18 +33,159 @@
     justify-content: space-between;
     align-items: center;
 }
-
+.navbar-company {
+    display: flex;
+    align-items: center;
+}
 .navbar-logo i {
-    font-size: 1.2rem;
+    font-size: 2.5rem;
     color: rgb(0, 183, 255);
 
 }
-.navbar-logo p{
-    font-size: 0.8rem;
-    padding-left: 1.2rem;
+.navbar-logo-text i{
+    padding-left: 0.2rem;
+    color: rgb(0, 183, 255);
+    
 }
-.fa-tooth{
+.navbar-logo-text p{
+    font-size: 0.7rem;
+    padding-left: 0.2rem;
+    line-height: 0.2rem;
+}
+.navbar-logo{
+    vertical-align: middle;
+    display: table-cell;
+}
+.navbar-menu i{
+    padding-left: 2rem;
+}
+.showcase-items{
+    width: auto;
+    height: auto;
+    background-color: rgb(212, 212, 212);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.showcase-items-text p{
+    
+    font-size: 0.8rem;
+    padding-top: 0.7rem;
+}
+.showcase-items-text i {
+    padding-top: 20rem;
+    font-size: 2rem ;
+    line-height: 1.5rem;
+    font-weight: 500;
+}
+.showcase-items-text  a{
+    background-color: #1fbea7;
+    border-color: #1fbea7;
+    font-size: 1.2rem;
+}
+.showcase-items-pic img{
+    width: 30.5rem;
+    
+}
+.aboutus-items{
+    
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.blue {
+    color: rgb(0, 183, 255);
+    
+}
+
+.blue-clinic {
+    color: rgb(0, 183, 255) ;
+}
+.aboutus-items-header {
     font-size: 2rem;
+    font-weight: 500;
+    line-height: 2rem;
+}
+.aboutus-items-header i {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 0px;
+}
+.ourservices {
+    
+    background-color: #ecece4;
+}
+.ourservices-items {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.ourservices-items {
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+    font-size: 2rem;
+    font-weight: 500;
+}
+.cards-items {
+    background-color: #ecece4;
+
+    height: auto;
+}
+.cards-items-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+}
+.cards-items-row1 {
+    background: #ecece4 ;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+
+
+}
+.cards-items-row2 {
+    background: #ecece4 ;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;    
+}
+.cards-img {
+    height: 380px;
+    padding-bottom: 2.5rem;
+}
+.appointment-items {
+    background: #2BAAEC ;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;   
+    padding-top: 2rem;
+    padding-bottom: 2rem; 
+}
+.appointment-items i {
+    color: white;
+    font-size: 1.5rem;
+}
+.appointment-items a {
+    background-color: white;
+}
+.footer-copyright {
+    background: #2BAAEC;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;   
+    padding-top: 1rem;
+    padding-bottom: 1rem; 
 }
 
 
