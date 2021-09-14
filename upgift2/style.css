@@ -1,0 +1,19 @@
+@import "/upgift2/css/core/standard.css";
+
+.topbar {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+}
+
+.topbar-hours i {
+    color: #2BAAEC ;
+    font-size: 1.3rem;
+}
+
+.topbar-social {
+    justify-self: end;
+    color: #2BAAEC ;
+}
+
+
